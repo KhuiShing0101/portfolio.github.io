@@ -1,1082 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>web developer</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>web developer</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <link href="assets/img/shortcut.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <link href="assets/img/shortcut.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+      integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
 
-  <!-- fontawesome CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
-    integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo"><a href="index.html">HarKhuiShing</a></h1>
 
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">HarKhuiShing</a></h1>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
-          <li><a class="nav-link scrollto" href="#about">ABOUT</a></li>
-          <li><a class="nav-link scrollto" href="#education">EDUCATION</a></li>
-          <li><a class="nav-link scrollto" href="#experience">EXPERIENCE</a></li>
-          <li><a class="nav-link scrollto" href="#work">PORTFOLIO</a></li>
-          <li><a class="nav-link scrollto" href="#show">ECOMMERCE PROJECT</a></li>
-          <li><a class="nav-link scrollto" href="#contact">CONTACT</a></li>
-
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-
-    </div>
-  </header>
-  <!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <h1 class="hero-title mb-4">I am Web Developer</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Graphic Designer, Web Developer"></span></p>
-        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+            <li><a class="nav-link scrollto" href="#about">ABOUT</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#education">EDUCATION</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#experience">EXPERIENCE</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#work">PORTFOLIO</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#show">ECOMMERCE PROJECT</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#contact">CONTACT</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
       </div>
-    </div>
-  </div>
-  <!-- End Hero Section -->
+    </header>
+    <!-- End Header -->
 
-  <!-- Main  -->
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Morgan Freeman</span></p>
-                        <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>contact@example.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skill</p>
-                    <span>HTML</span> <span class="pull-right">85%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>CSS3</span> <span class="pull-right">75%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>PHP</span> <span class="pull-right">50%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
-                        aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan
-                      id
-                      imperdiet et, porttitor
-                      at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                      porttitor accumsan tincidunt.
-                    </p>
-                    <p class="lead">
-                      Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                      porttitor volutpat. Vestibulum
-                      ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                    </p>
-                    <p class="lead">
-                      Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                      Nulla porttitor accumsan
-                      tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Education Section ======= -->
-
-    <section id="education" class="education-mf pt-5 route">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Education
-              </h3>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img src="assets/img/fairway.png" alt="" style="width: 100px;"></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Fairway Technology
-                  <br> 2022
-                </h2>
-                <p>
-                  Learned <br>
-                  Html:5,Css:3,Bootstrap:5,<br>
-                  Javascrip:OOP,<br>
-                  PHP:OOP,<br>
-                  Laravel:8
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img src="assets/img/theworld.png" alt="" style="width:100px;"></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">The World Design Insitiute <br>
-                  2020
-                </h2>
-                <p class="s-description text-center">
-                  Photoshop <br>
-                  Illustrator <br>
-                  Design Principle <br>
-                  Commercial Design Theory <br>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img src="assets/img/atys.png" alt="" style="width:100px;"></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">ATYS Japanese language School (Tokyo) <br>
-                  2018-2019</h2>
-                <p class="s-description text-center">
-                  Japanese Lanuguage <br>
-                  Japanese Cultural<br>
-                  Japanese Attitute<br>
-                  Japanese Work Flow
-
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img src="assets/img/tarwa.png" alt="" style="width:100px;"></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">
-                  East Yangon University <br>
-                  BA.English <br>
-                  2013-2015
-                </h2>
-                <p class="s-description text-center">
-                  English language
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img src="assets/img/TU.png" alt="" style="width:100px;"></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Technology University Thanlyin (IT)
-                  <br>
-                  2011-2012
-                </h2>
-                <p class="s-description text-center">
-                  JAVA,html,css
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i class="fa-solid fa-school"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Basic Education High School ( Mindat)</h2>
-                <p class="s-description text-center">
-                  Myanmar,English,Maths, <br>
-                  Phys,Che,Bio
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- End Educations Section -->
-
-
-    <!-- ======= Counter Section ======= -->
-
-    <section id="experience" class="experience-mf pt-5 route">
-
-      <div class="col-sm-12">
-        <div class="detail-box text-center">
-          <div class="service-box">
-            <h3 class="title-exp">
-              EXPERIENCE
-            </h3>
-            <p class="subtitle-a">
-              Working Life Journey
+    <!-- ======= Hero Section ======= -->
+    <div
+      id="hero"
+      class="hero route bg-image"
+      style="background-image: url(assets/img/hero-bg.jpg)"
+    >
+      <div class="overlay-itro"></div>
+      <div class="hero-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <h1 class="hero-title mb-4">I am Web Developer</h1>
+            <p class="hero-subtitle">
+              <span
+                class="typed"
+                data-typed-items="Graphic Designer, Web Developer"
+              ></span>
             </p>
-            <div class="line-mf"></div>
-          </div>
-
-        </div>
-
-        <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-
-          <div class="overlay-mf"></div>
-          <div class="container position-relative">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="counter-box counter-box pt-4 pt-md-0">
-                  <div class="counter-ico">
-                    <span class="ico-circle"><img src="assets/img/jm.png" alt="" style="width:80px; padding-right:20px;"></span>
-                  </div>
-                  <div class="counter-num">
-                    <p data-purecounter-start="0" data-purecounter-end="2016" data-purecounter-duration="1"
-                      class="counter purecounter"></p> to <p data-purecounter-start="0" data-purecounter-end="2018"
-                      data-purecounter-duration="1" class="counter purecounter"></p>
-                    <br>
-                    <div class="service-box1">
-                      <span counter-detail>Mobile and Laptop Software Service</span> <br>
-                      <span> Technician</span><br>
-                      <span counter-detail>North Okkalapa Township,Yangon.</span><br>
-                      <span counter-detail>J-Max IT and Mobile</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="counter-box pt-4 pt-md-0">
-                  <div class="counter-ico">
-                    <span class="ico-circle"><img src="assets/img/sushiro.png" alt="" style="width:80px; padding-right:20px;"></span>
-                  </div>
-                  <div class="counter-num">
-                    <p data-purecounter-start="0" data-purecounter-end="2018" data-purecounter-duration="1"
-                      class="counter purecounter"></p>
-                    to
-                    <p data-purecounter-start="0" data-purecounter-end="2020" data-purecounter-duration="1"
-                      class="counter purecounter"></p>
-                    <br>
-                    <div class="service-box1">
-                      <span> Casher and Kitchen Helper </span> <br>
-                      <span> Utsunomiya Township , Japan</span><br>
-                      スシローResturant <br>
-                      Lawson Covenient Store
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="counter-box pt-4 pt-md-0">
-                  <div class="counter-ico">
-                    <span class="ico-circle"><img src="assets/img/sc.png" alt="" style="width:80px; padding-right:20px;"></span>
-                  </div>
-                  <div class="counter-num">
-                    <p data-purecounter-start="0" data-purecounter-end="2020" data-purecounter-duration="1"
-                      class="counter purecounter">
-                    </p> to <p data-purecounter-start="0" data-purecounter-end="2022" data-purecounter-duration="1"
-                      class="counter purecounter">
-                    </p><br>
-                    <div class="service-box1">
-                      <span>Graphic Designer </span> <br>
-                      <span>Kamayut Township, Yangon.</span><br>
-                      soft creative <br>
-                      Shwe inhouse media 
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Counter Section -->
-
-    <!-- ======= start Portfolio Section ======= -->
-
-    <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Portfolio
-              </h3>
-              <p class="subtitle-a">
-                Graphic Designs Journey
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-
-          <!-- galanz -->
-          <div class="work-content">
-            <div class="row">
-              <div class="col-sm-8">
-                <h2 class="w-title">Galanz Cosmetic Brand Designs</h2>
-                <div class="w-more">
-                  <span class="w-ctegory">Malaysia Product Brand</span>
-                  <span class="w-date">2022</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz1.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz-2.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz3.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz4.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz5.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz6.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz7.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz8.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz9.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz10.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz11.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box">
-              <a href="assets/img/galanz12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/galanz12.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-
-
-          <!-- May Chaw Yin -->
-
-          <div class="work-content">
-            <div class="row">
-              <div class="col-sm-8">
-                <h2 class="w-title">May Chaw Yin </h2>
-                <div class="w-more">
-                  <span class="w-ctegory">Taiwan Curtain Brands</span>
-                  <span class="w-date">2022</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/mcy1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/mcy1.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/mcy2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/mcy2.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/mcy3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/mcy3.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/mcy4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/mcy4.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/mcy5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/mcy5.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/mcy6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/mcy6.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <!-- USK and DKS -->
-
-          <div class="work-content">
-            <div class="row">
-              <div class="col-sm-8">
-                <h2 class="w-title"> USatGyi and DawGyiSat </h2>
-                <div class="w-more">
-                  <span class="w-ctegory">Food Spices</span>
-                  <span class="w-date">2022</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/usk1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/usk1.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/usk2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/usk2.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/usk3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/usk3.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/dks4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/dks4.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/dks5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/dks5.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/dks6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/dks6.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <!-- Thet -->
-          <div class="work-content">
-            <div class="row">
-              <div class="col-sm-8">
-                <h2 class="w-title"> Thet </h2>
-                <div class="w-more">
-                  <span class="w-ctegory">Thet Accounting Services</span>
-                  <span class="w-date">2022</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/thet1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/thet1.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/thet2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/thet2.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/thet3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/thet3.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/thet4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/thet4.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/thet5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/thet5.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/thet6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/thet6.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <!-- standby -->
-
-          <div class="work-content">
-            <div class="row">
-              <div class="col-sm-8">
-                <h2 class="w-title"> Standby </h2>
-                <div class="w-more">
-                  <span class="w-ctegory">dilivery services</span>
-                  <span class="w-date">2022</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/standby1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/standby1.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/standby2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/standby2.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/standby3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/standby3.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/standby4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/standby4.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/standby5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/standby5.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="work-box1">
-              <a href="assets/img/standby6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/standby6.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- End Portfolio Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Xavi Alonso</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">Marta Socrate</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-
-            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-              
-            </div> -->
           </div>
         </div>
       </div>
     </div>
+    <!-- End Hero Section -->
 
-    <!-- End Testimonials Section -->
-
-    <!-- ======= Blog Section ======= -->
-
-    <section id="show" class="blog-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Ecommerce Project
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Travel</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span>1 month ago
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- End Blog Section-->
-
-    <!-- ======= Contact Section ======= -->
-
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
-      style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="contact-mf">
-              <div id="contact" class="box-shadow-full">
+    <!-- Main  -->
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="box-shadow-full">
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Send Message Me
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                                required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
+                    <div class="row">
+                      <div class="col-sm-6 col-md-5">
+                        <div class="about-img">
+                          <img
+                            src="assets/img/testimonial-2.jpg"
+                            class="img-fluid rounded b-shadow-a"
+                            alt=""
+                          />
                         </div>
-                      </form>
+                      </div>
+                      <div class="col-sm-6 col-md-7">
+                        <div class="about-info">
+                          <p>
+                            <span class="title-s">Name:</span>
+                            <span> HarKhuiShing (Yarzarlin)</span>
+                          </p>
+                          <p>
+                            <span class="title-s">Profile: </span>
+                            <span>Web developer</span>
+                          </p>
+                          <p>
+                            <span class="title-s">Email:  </span>
+                            <span>code4life.escr@gmail.com</span>
+                          </p>
+                          <p>
+                            <span class="title-s">Phone: </span>
+                            <span>09-767879998</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="skill-mf">
+                      <p class="title-s">Skill</p>
+                      <span>HTML,Css,Bootstrap</span> <span class="pull-right">85%</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 85%"
+                          aria-valuenow="85"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                      <span>PHP</span> <span class="pull-right">50%</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width:50%"
+                          aria-valuenow="50"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                      <span>Laravel</span> <span class="pull-right">50%</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 50%"
+                          aria-valuenow="50"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                      <span>javaScript</span>
+                      <span class="pull-right">50%</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 50%"
+                          aria-valuenow="50"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
-                    </div>
-                    <div class="more-info">
+                    <div class="about-me pt-4 pt-md-0">
+                      <div class="title-box-2">
+                        <h5 class="title-left">About me</h5>
+                      </div>
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
+                        My 1.5 years of living, working, and studying in Japan have given me valuable insight into Japanese work culture,
+                        making me an ideal candidate for companies seeking someone with cultural and professional experience in Japan.
+                        I'm confident that I would be a great asset to any organization looking to expand globally
                       </p>
-                      <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> Kamaryut Township, Yangon.</li>
-                        <li><span class="bi bi-phone"></span> +95 9767879998</li>
-                        <li><span class="bi bi-envelope"></span>code4life.escr@gmail.com</li>
-                      </ul>
-                    </div>
-                    <div class="socials">
-                      <ul>
-                        <li><a href=""><span class="ico-circle"><i class="fa-brands fa-github"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                      </ul>
+                      <p class="lead">
+                        I specialize in digital coding and design, 
+                        with experience in HTML5, CSS3, Bootstrap, PHP, Laravel, MYSQL, and design software like Adobe Illustrator, Photoshop, and Premiere.
+                        I'm self-driven and always learning, and currently expanding my skills in the MERN stack.
+                      </p>
+                      <p class="lead">
+                        As a productive person, I consider myself an introvert as it helps me focus on my work. 
+                        In my experience, around 85% of successful people in this field are also introverts.
+                        I enjoy working on my own, whether it's sitting at my PC all day. I prefer to listen rather than talk.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1084,47 +213,1332 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- End About Section -->
 
-    <!-- End Contact Section -->
+      <!-- ======= Education Section ======= -->
 
-  </main>
+      <section id="education" class="education-mf pt-5 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">Education</h3>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><img
+                      src="assets/img/fairway.png"
+                      alt=""
+                      style="width: 100px"
+                  /></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">
+                    Fairway Technology <br />
+                    2022
+                  </h2>
+                  <p>
+                    Learned <br />
+                    Html:5,Css:3,Bootstrap:5,<br />
+                    Javascrip:OOP,<br />
+                    PHP:OOP,<br />
+                    Laravel:8
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><img
+                      src="assets/img/theworld.png"
+                      alt=""
+                      style="width: 100px"
+                  /></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">
+                    The World Design Insitiute <br />
+                    2020
+                  </h2>
+                  <p class="s-description text-center">
+                    Photoshop <br />
+                    Illustrator <br />
+                    Design Principle <br />
+                    Commercial Design Theory <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><img src="assets/img/atys.png" alt="" style="width: 100px"
+                  /></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">
+                    ATYS Japanese language School (Tokyo) <br />
+                    2018-2019
+                  </h2>
+                  <p class="s-description text-center">
+                    Japanese Lanuguage <br />
+                    Japanese Cultural<br />
+                    Japanese Attitute<br />
+                    Japanese Work Flow
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><img
+                      src="assets/img/tarwa.png"
+                      alt=""
+                      style="width: 100px"
+                  /></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">
+                    East Yangon University <br />
+                    BA.English <br />
+                    2013-2015
+                  </h2>
+                  <p class="s-description text-center">English language</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><img src="assets/img/TU.png" alt="" style="width: 100px"
+                  /></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">
+                    Technology University Thanlyin (IT)
+                    <br />
+                    2011-2012
+                  </h2>
+                  <p class="s-description text-center">JAVA,html,css</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <span class="ico-circle"
+                    ><i class="fa-solid fa-school"></i
+                  ></span>
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">Basic Education High School ( Mindat)</h2>
+                  <p class="s-description text-center">
+                    Myanmar,English,Maths, <br />
+                    Phys,Che,Bio
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <!-- End #main -->
+      <!-- End Educations Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="container">
-      <div class="row">
+      <!-- ======= Counter Section ======= -->
+
+      <section id="experience" class="experience-mf pt-5 route">
         <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright. All Rights Reserved by HAR KHUI SHING</p>
-            <div class="credits">
-              Designed by <a>HKS</a>
+          <div class="detail-box text-center">
+            <div class="service-box">
+              <h3 class="title-exp">EXPERIENCE</h3>
+              <p class="subtitle-a">Working Life Journey</p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+
+          <div
+            class="section-counter paralax-mf bg-image"
+            style="background-image: url(assets/img/counters-bg.jpg)"
+          >
+            <div class="overlay-mf"></div>
+            <div class="container position-relative">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="counter-box counter-box pt-4 pt-md-0">
+                    <div class="counter-ico">
+                      <span class="ico-circle"
+                        ><img
+                          src="assets/img/jm.png"
+                          alt=""
+                          style="width: 80px; padding-right: 20px"
+                      /></span>
+                    </div>
+                    <div class="counter-num">
+                      <p
+                        data-purecounter-start="0"
+                        data-purecounter-end="2016"
+                        data-purecounter-duration="1"
+                        class="counter purecounter"
+                      ></p>
+                      to
+                      <p
+                        data-purecounter-start="0"
+                        data-purecounter-end="2018"
+                        data-purecounter-duration="1"
+                        class="counter purecounter"
+                      ></p>
+                      <br />
+                      <div class="service-box1">
+                        <span counter-detail
+                          >Mobile and Laptop Software Service</span
+                        >
+                        <br />
+                        <span> Technician</span><br />
+                        <span counter-detail
+                          >North Okkalapa Township,Yangon.</span
+                        ><br />
+                        <span counter-detail>J-Max IT and Mobile</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="counter-box pt-4 pt-md-0">
+                    <div class="counter-ico">
+                      <span class="ico-circle"
+                        ><img
+                          src="assets/img/sushiro.png"
+                          alt=""
+                          style="width: 80px; padding-right: 20px"
+                      /></span>
+                    </div>
+                    <div class="counter-num">
+                      <p
+                        data-purecounter-start="0"
+                        data-purecounter-end="2018"
+                        data-purecounter-duration="1"
+                        class="counter purecounter"
+                      ></p>
+                      to
+                      <p
+                        data-purecounter-start="0"
+                        data-purecounter-end="2020"
+                        data-purecounter-duration="1"
+                        class="counter purecounter"
+                      ></p>
+                      <br />
+                      <div class="service-box1">
+                        <span> Casher and Kitchen Helper </span> <br />
+                        <span> Utsunomiya Township , Japan</span><br />
+                        スシローResturant <br />
+                        Lawson Covenient Store
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="counter-box pt-4 pt-md-0">
+                    <div class="counter-ico">
+                      <span class="ico-circle"
+                        ><img
+                          src="assets/img/sc.png"
+                          alt=""
+                          style="width: 80px; padding-right: 20px"
+                      /></span>
+                    </div>
+                    <div class="counter-num">
+                      <p
+                        data-purecounter-start="0"
+                        data-purecounter-end="2020"
+                        data-purecounter-duration="1"
+                        class="counter purecounter"
+                      ></p>
+                      to
+                      <p
+                        data-purecounter-start="0"
+                        data-purecounter-end="2022"
+                        data-purecounter-duration="1"
+                        class="counter purecounter"
+                      ></p>
+                      <br />
+                      <div class="service-box1">
+                        <span>Graphic Designer </span> <br />
+                        <span>Kamayut Township, Yangon.</span><br />
+                        soft creative <br />
+                        Shwe inhouse media
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counter Section -->
+
+      <!-- ======= start Portfolio Section ======= -->
+
+      <section id="work" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">Portfolio</h3>
+                <p class="subtitle-a">Graphic Designs Journey</p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- galanz -->
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Galanz Cosmetic Brand Designs</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">Malaysia Product Brand</span>
+                    <span class="w-date">2022</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz1.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz1.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz-2.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz-2.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz3.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz3.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz4.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz4.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz5.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz5.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz6.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz6.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz7.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz7.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz8.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz8.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz9.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz9.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz10.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz10.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz11.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz11.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box">
+                <a
+                  href="assets/img/galanz12.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/galanz12.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- May Chaw Yin -->
+
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">May Chaw Yin</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">Taiwan Curtain Brands</span>
+                    <span class="w-date">2022</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/mcy1.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/mcy1.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/mcy2.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/mcy2.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/mcy3.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/mcy3.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/mcy4.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/mcy4.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/mcy5.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/mcy5.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/mcy6.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/mcy6.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- USK and DKS -->
+
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">USatGyi and DawGyiSat</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">Food Spices</span>
+                    <span class="w-date">2022</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/usk1.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/usk1.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/usk2.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/usk2.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/usk3.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/usk3.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/dks4.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/dks4.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/dks5.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/dks5.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/dks6.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/dks6.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Thet -->
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Thet</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">Thet Accounting Services</span>
+                    <span class="w-date">2022</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/thet1.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/thet1.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/thet2.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/thet2.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/thet3.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/thet3.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/thet4.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/thet4.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/thet5.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/thet5.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/thet6.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img src="assets/img/thet6.jpg" alt="" class="img-fluid" />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- standby -->
+
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Standby</h2>
+                  <div class="w-more">
+                    <span class="w-ctegory">dilivery services</span>
+                    <span class="w-date">2022</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/standby1.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/standby1.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/standby2.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/standby2.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/standby3.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/standby3.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/standby4.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/standby4.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/standby5.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/standby5.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="work-box1">
+                <a
+                  href="assets/img/standby6.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                >
+                  <div class="work-img">
+                    <img
+                      src="assets/img/standby6.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+
+      <div
+        class="testimonials paralax-mf bg-image"
+        style="background-image: url(assets/img/overlay-bg.jpg)"
+      >
+        <div class="overlay-mf"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div
+                class="testimonials-slider swiper"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-box">
+                      <div class="author-test">
+                        <img
+                          src="assets/img/testimonial-2.jpg"
+                          alt=""
+                          class="rounded-circle b-shadow-a"
+                        />
+                        <span class="author">HarKhuiShing</span>
+                      </div>
+                      <div class="content-test">
+                        <p class="description lead">
+                          "Transforming complex ideas into elegant web solutions through creativity, collaboration,
+                           and a deep understanding of technology and user experience. Let's bring your vision to life."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End testimonial item -->
+
+                  <div class="swiper-slide">
+                    <div class="testimonial-box">
+                      <div class="author-test">
+                        <img
+                          src="assets/img/testimonial-2.jpg"
+                          alt=""
+                          class="rounded-circle b-shadow-a"
+                        />
+                        <span class="author">HarKhuiShing</span>
+                      </div>
+                      <div class="content-test">
+                        <p class="description lead">
+                          Crafting innovative web experiences with a passion for code, 
+                          a commitment to quality, and a dedication to exceeding client expectations
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End testimonial item -->
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <!-- End  Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+      <!-- End Testimonials Section -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+      <!-- ======= Blog Section ======= -->
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+      <section id="show" class="blog-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">Ecommerce Project</h3>
+                <p class="subtitle-a">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"
+                    ><img src="assets/img/post-1.jpg" alt="" class="img-fluid"
+                  /></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Travel</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a href="blog-single.html">See more ideas about Travel</a>
+                  </h3>
+                  <p class="card-description">
+                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                    dapibus. Praesent sapien massa, convallis a pellentesque
+                    nec, egestas non nisi.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="post-author">
+                    <a href="#">
+                      <img
+                        src="assets/img/testimonial-2.jpg"
+                        alt=""
+                        class="avatar rounded-circle"
+                      />
+                      <span class="author">Morgan Freeman</span>
+                    </a>
+                  </div>
+                  <div class="post-date">
+                    <span class="bi bi-clock"></span> 10 min
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"
+                    ><img src="assets/img/post-2.jpg" alt="" class="img-fluid"
+                  /></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Web Design</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a href="blog-single.html">See more ideas about Travel</a>
+                  </h3>
+                  <p class="card-description">
+                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                    dapibus. Praesent sapien massa, convallis a pellentesque
+                    nec, egestas non nisi.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="post-author">
+                    <a href="#">
+                      <img
+                        src="assets/img/testimonial-2.jpg"
+                        alt=""
+                        class="avatar rounded-circle"
+                      />
+                      <span class="author">Morgan Freeman</span>
+                    </a>
+                  </div>
+                  <div class="post-date">
+                    <span class="bi bi-clock"></span> 10 min
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a href="blog-single.html"
+                    ><img src="assets/img/post-3.jpg" alt="" class="img-fluid"
+                  /></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Web Design</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a href="blog-single.html">See more ideas about Travel</a>
+                  </h3>
+                  <p class="card-description">
+                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
+                    dapibus. Praesent sapien massa, convallis a pellentesque
+                    nec, egestas non nisi.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="post-author">
+                    <a href="#">
+                      <img
+                        src="assets/img/testimonial-2.jpg"
+                        alt=""
+                        class="avatar rounded-circle"
+                      />
+                      <span class="author">Morgan Freeman</span>
+                    </a>
+                  </div>
+                  <div class="post-date">
+                    <span class="bi bi-clock"></span>1 month ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-</body>
+      <!-- End Blog Section-->
 
+      <!-- ======= Contact Section ======= -->
+
+      <section
+        id="contact"
+        class="paralax-mf footer-paralax bg-image sect-mt4 route"
+        style="background-image: url(assets/img/overlay-bg.jpg)"
+      >
+        <div class="overlay-mf"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="contact-mf">
+                <div id="contact" class="box-shadow-full">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="title-box-2">
+                        <h5 class="title-left">Send Message Me</h5>
+                      </div>
+                      <div>
+                        <form
+                          action="forms/contact.php"
+                          method="post"
+                          role="form"
+                          class="php-email-form"
+                        >
+                          <div class="row">
+                            <div class="col-md-12 mb-3">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="form-control"
+                                  id="name"
+                                  placeholder="Your Name"
+                                  required
+                                />
+                              </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                              <div class="form-group">
+                                <input
+                                  type="email"
+                                  class="form-control"
+                                  name="email"
+                                  id="email"
+                                  placeholder="Your Email"
+                                  required
+                                />
+                              </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  name="subject"
+                                  id="subject"
+                                  placeholder="Subject"
+                                  required
+                                />
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <textarea
+                                  class="form-control"
+                                  name="message"
+                                  rows="5"
+                                  placeholder="Message"
+                                  required
+                                ></textarea>
+                              </div>
+                            </div>
+                            <div class="col-md-12 text-center my-3">
+                              <div class="loading">Loading</div>
+                              <div class="error-message"></div>
+                              <div class="sent-message">
+                                Your message has been sent. Thank you!
+                              </div>
+                            </div>
+                            <div class="col-md-12 text-center">
+                              <button
+                                type="submit"
+                                class="button button-a button-big button-rouded"
+                              >
+                                Send Message
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="title-box-2 pt-4 pt-md-0">
+                        <h5 class="title-left">Get in Touch</h5>
+                      </div>
+                      <div class="more-info">
+                        <p class="lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Facilis dolorum dolorem soluta quidem expedita
+                          aperiam aliquid at. Totam magni ipsum suscipit amet?
+                          Autem nemo esse laboriosam ratione nobis mollitia
+                          inventore?
+                        </p>
+                        <ul class="list-ico">
+                          <li>
+                            <span class="bi bi-geo-alt"></span> Kamaryut
+                            Township, Yangon.
+                          </li>
+                          <li>
+                            <span class="bi bi-phone"></span> +95 9767879998
+                          </li>
+                          <li>
+                            <span class="bi bi-envelope"></span
+                            > code4life.escr@gmail.com
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="socials">
+                        <ul>
+                          <li>
+                            <a href=""
+                              ><span class="ico-circle"
+                                ><i class="fa-brands fa-github"></i></span
+                            ></a>
+                          </li>
+                          <li>
+                            <a href=""
+                              ><span class="ico-circle"
+                                ><i class="bi bi-linkedin"></i></span
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Contact Section -->
+    </main>
+
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">
+                &copy; Copyright. All Rights Reserved by HAR KHUI SHING
+              </p>
+              <div class="credits">Designed by <a>HKS</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

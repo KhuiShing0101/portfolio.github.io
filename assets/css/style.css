@@ -239,6 +239,33 @@ a:hover {
   transition: all 500ms ease;
 }
 
+.socials-1 {
+  padding: 1.5rem 0 0 35rem ;
+}
+
+.socials-1 ul li {
+  display: inline-block;
+}
+
+.socials-1 .ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  line-height: 1.6;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+}
+
+.socials-1 .ico-circle:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
+
 /*------/ Ul resect /------*/
 .ul-resect,
 .widget-tags ul,
